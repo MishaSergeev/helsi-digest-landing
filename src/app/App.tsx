@@ -1,6 +1,7 @@
+import { DigestLanding } from "../pages/DigestLanding/DigestLanding";
 
 function App() {
-return <div>Helsi Digest Landing</div>;
-}
+  return <DigestLanding />;
+};
 
 export default App

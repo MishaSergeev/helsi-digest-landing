@@ -1,0 +1,18 @@
+.Welcome_title {
+  margin-bottom: 43px;
+  margin-top: 0;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 60px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .Welcome_title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+}

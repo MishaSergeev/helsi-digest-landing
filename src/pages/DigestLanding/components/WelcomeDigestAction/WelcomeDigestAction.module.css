@@ -1,0 +1,21 @@
+.Welcome_action_container {
+  margin-bottom: 48px;
+}
+
+.Button_welcome_digest {
+  max-width: 328px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .Button_welcome_digest {
+    padding: 12px 32px;
+  }
+
+  .Welcome_action_container {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 0;
+  }
+}

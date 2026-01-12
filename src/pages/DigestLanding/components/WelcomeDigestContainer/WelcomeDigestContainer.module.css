@@ -1,0 +1,29 @@
+.Welcome_digest_container {
+  overflow: hidden;
+  padding: 32px 16px;
+  display: grid;
+  grid-template-areas:
+    "subtitle image"
+    "title image"
+    "sectionDescr image"
+    "action image";
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: auto 50%;
+}
+
+@media (max-width: 767px) {
+  .Welcome_digest_container {
+    align-content: start;
+    gap: 0;
+    grid-template-areas:
+      "subtitle"
+      "title"
+      "sectionDescr"
+      "image"
+      "action";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    justify-items: start;
+    overflow: visible;
+  }
+}

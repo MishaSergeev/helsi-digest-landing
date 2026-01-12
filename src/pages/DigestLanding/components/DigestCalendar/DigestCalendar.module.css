@@ -1,0 +1,20 @@
+.Calendar_section {
+  padding: 0 0 44px;
+}
+
+.Calendar_cardsContainer {
+  height: 108px;
+  padding: 7px 0px;
+  margin: 0 auto;
+  max-width: 1128px;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.Calendar_monthlyCards {
+  overflow: auto;
+  display: flex;
+  width: 100%;
+}

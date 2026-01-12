@@ -1,0 +1,88 @@
+.ActionElement_container {
+  width: 100%;
+  cursor: pointer;
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.MonthlyCard_container {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ededf1;
+  border-radius: 20px;
+  column-gap: 10px;
+  display: flex;
+  flex: 0 0 80px;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  margin: 0 5px;
+  padding: 7px;
+  width: 80px;
+  transition: all 0.2s linear;
+}
+
+.MonthlyCard_container:not(.MonthlyCardActive):hover {
+  margin: 0;
+  padding: 7px;
+  width: 96px;
+}
+
+.MonthlyCardActive {
+  border: 4px solid #73b8ff;
+  margin: 0 16px 0 4px;
+  padding: 7px;
+  width: 96px;
+}
+
+.MonthlyCard_imageContainer {
+  align-items: center;
+  border-radius: 16px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 61px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 68px;
+  transition: all 0.2s linear;
+}
+
+.MonthlyCard_image {
+  height: 100% !important;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  transition: all 0.2s linear;
+}
+
+.MonthlyCard_container:not(.MonthlyCardActive):hover .MonthlyCard_imageContainer,
+.MonthlyCardActive .MonthlyCard_imageContainer {
+  height: 67px;
+  width: 75px;
+}
+
+.MonthlyCard_container:not(.MonthlyCardActive):hover .MonthlyCard_image,
+.MonthlyCardActive .MonthlyCard_image {
+  transform: scale(1.15);
+}
+
+.MonthlyCard_title {
+  color: #3a3a5e;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  transition: all 0.1s linear;
+}
+
+.MonthlyCard_container:not(.MonthlyCardActive):hover .MonthlyCard_title,
+.MonthlyCardActive .MonthlyCard_title {
+  font-size: 14px;
+  line-height: 20px;
+}
