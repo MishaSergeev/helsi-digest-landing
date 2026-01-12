@@ -9,10 +9,7 @@ import {WelcomeDigestAction } from "../WelcomeDigestAction/WelcomeDigestAction"
 import styles from "./WelcomeDigestContainer.module.css";
 
 type Props = {
-  subtitle: string;
-  title: string;
-  description: string;
-  digest: DigestUpdate;
+    digest: DigestUpdate;
 };
 
 export const WelcomeDigestContainer = ({ digest }: Props) => {

@@ -146,3 +146,14 @@ export const mockDigest: DigestUpdate = {
     "digestImage": "b88e9b56-1ec6-40fd-bb63-565ac5519c76",
     "date": "2025-02-01T00:00:00"
 };
+export const mockDigestLong: DigestUpdate = {
+    "id": "e23fcba7-639f-4b3f-b27c-25e0a1867e2b",
+    "name": "Дайджест від Helsi: довгий, довгий, довгий, довгий, довгий, довгий, довгий, довгий, довгий, довгий заголовок",
+    "description": "Довгий, довгий, довгий, довгий, довгий, довгий, довгий, довгий, довгий, довгий заголовок",
+    "mobileImage": "8fcb8e5b-3761-45c3-8b0e-932acca3da39",
+    "webImage": "25b2569a-0cf2-4caf-8bbe-2f089ebacfd8",
+    "backgroundColor": "#B8DBFF",
+    "monthName": "Лютий",
+    "digestImage": "b88e9b56-1ec6-40fd-bb63-565ac5519c76",
+    "date": "2025-02-01T00:00:00"
+};

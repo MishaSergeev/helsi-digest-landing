@@ -19,7 +19,6 @@ export const DigestLanding = () => {
   if (!digests.length || !activeDigest) {
     return <div>No data</div>;
   }
-  //console.log('digests',digests)
 
   return (
     <div style={{ backgroundColor: activeDigest.backgroundColor }}>
